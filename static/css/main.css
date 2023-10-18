@@ -1,0 +1,61 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    background-color: #010101;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+}
+
+.container {
+    width: 100%;
+    max-width: 600px; /* or any desired max width */
+    text-align: center;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+p {
+    color: white;
+    font-size: 1.2em;
+    margin: 20px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    margin: 20px;
+    border: none;
+    border-radius: 1px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#greet {
+    background-color: #008F61;
+    color: black;
+    width: 200px;   
+}
+
+input:focus {
+    border: solid 3px #01FF46;
+    outline: none;
+}
+
+#greet:hover {
+    background-color: black;
+    color: #008F61;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
